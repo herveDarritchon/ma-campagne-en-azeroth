@@ -8,14 +8,15 @@ ai-first: true
 ---
 # Index du Vault — Au Nom de la Horde
 
-> Porte d’entrée du vault Obsidian consacré au jeu de rôle : **Au Nom de la Horde** (Système : D&D 5e).
+> Porte d’entrée du vault Obsidian consacré à la campagne : **Au Nom de la Horde** (Système : D&D 5e).
+> *Quelques mois après la bataille du Mont Hyjal, la nouvelle Horde tente de bâtir une nation dans les terres rudes de Durotar. Une campagne centrée sur la survie, l'exploration et les luttes de factions autour de la fondation d'Orgrimmar.*
 
 ---
 
 ## 🗺️ Campagnes & Aventures
 
 - [[Campagnes/Index_-_Campagnes|Index - Campagnes]]
-- *Ajoutez ici vos campagnes actives et modules de jeu.*
+- **Saison 1 : Durotar** — Depuis Razor Hill, enquêtez sur de mystérieux sabotages et naviguez entre les tensions locales (Quilboars, Lame Ardente, Humains) pour protéger l'avenir de la Horde.
 
 ---
 
