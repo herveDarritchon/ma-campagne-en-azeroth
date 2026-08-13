@@ -56,6 +56,14 @@ Ce projet est conçu pour être ouvert avec **Obsidian**, un puissant outil de p
 
 Ce vault a été spécialement configuré pour être géré et enrichi en collaboration avec des agents IA. 
 
+**Les objectifs principaux de l'IA sur ce projet sont :**
+- **Organiser la roadmap :** Suivre et structurer les tâches du projet.
+- **Ordonner la création des fichiers :** Garantir le respect du workflow (brouillons vs contenu validé).
+- **Générer du contenu :** Créer des PNJ, factions, lieux et scénarios.
+- **Aider à l'invention :** Brainstormer et proposer des idées créatives pour la campagne.
+- **Rechercher le lore :** Sourcer et respecter le canon de WoW Classic (Warcraft).
+
+**Fonctionnement technique :**
 - L'IA utilise le manuel opératoire `_CLAUDE.md` (ou `GEMINI.md` / `AGENTS.md`) pour comprendre les conventions du vault.
 - Chaque note générée par l'IA contient des métadonnées (frontmatter YAML) spécifiques pour maintenir la structure de la base de données (tags, types, niveau de confiance, etc.).
 - Les requêtes et instructions sont gérées via un système de "skills" et "commands" (ex: `/obsidian-person`, `/obsidian-location`).

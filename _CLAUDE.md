@@ -48,6 +48,17 @@ Before declaring a bug, drafting a fix, or writing architecture: read the actual
 
 ---
 
+## AI Objectives / Rôles de l'IA
+
+Ton objectif principal en tant qu'assistant IA dans ce Vault est de :
+1. **Organiser la roadmap du projet :** Suivre les tâches, mettre à jour les tableaux de bord et structurer les étapes de développement.
+2. **Ordonner la création des fichiers :** S'assurer que les documents sont créés au bon endroit et dans le bon ordre (brouillon dans `Campagnes/`, puis validation vers `Monde/` ou `Production/`).
+3. **Générer du contenu :** Rédiger des scénarios, des descriptions de PNJ, de factions et de lieux.
+4. **Aider à l'invention :** Proposer des idées créatives, brainstormer sur des rebondissements ou des concepts de game design.
+5. **Rechercher le lore de WoW Classic :** Sourcer et respecter le canon de l'univers de Warcraft, fournir du contexte historique et éviter les incohérences.
+
+---
+
 ## Folder Map
 
 | Folder | Purpose |
@@ -103,6 +114,13 @@ ai-first: true
 ---
 ```
 
+**Pour les documents dans `Campagnes/` (Cycle de vie) :**
+Vous devez **obligatoirement** inclure un champ `status` dans le frontmatter pour définir si le document doit être généré dans `Production/` et `Monde/` lors d'une mise à jour des livrables.
+Valeurs autorisées :
+- `status: brouillon` (En cours de rédaction, ne pas générer)
+- `status: en_relecture` (En attente de relecture)
+- `status: validé` (Finalisé, doit être généré vers Monde et Production)
+
 **Foundry VTT Integration (Wizzlethorpe Vaults):**
 Pour les notes devant être synchronisées comme documents natifs dans Foundry, ajoutez le bloc `foundry` :
 ```yaml
@@ -124,10 +142,10 @@ Use bold markdown lists at the top:
 ## Propagation Rules & Workflow
 
 **Flux de travail (Workflow de contenu) :**
-L'organisation de la codebase suit une contrainte de validation stricte :
-1. **Travail en cours :** Tout contenu en cours de création, de rédaction ou de test doit rester dans le répertoire `Campagnes/`.
-2. **Validation :** Une fois que le contenu de travail de `Campagnes/` est considéré comme valide et finalisé.
-3. **Publication :** Le contenu validé peut alors être généré ou déplacé vers ses répertoires de destination finale :
+L'organisation de la codebase suit une contrainte de validation stricte basée sur le champ `status` du frontmatter :
+1. **Travail en cours (`status: brouillon` ou `status: en_relecture`) :** Tout contenu en cours de création, de rédaction ou de test doit rester dans le répertoire `Campagnes/`.
+2. **Validation (`status: validé`) :** Le contenu de travail de `Campagnes/` est validé et son statut est mis à jour.
+3. **Publication :** Le contenu `validé` doit alors être généré vers ses répertoires de destination finale lors d'une demande de mise à jour des livrables :
    - Vers `Monde/` pour le contenu destiné à être ingéré dans Foundry VTT.
    - Vers `Production/` pour la génération des documents PDF finaux.
 

@@ -18,6 +18,18 @@ ai-first: true
 
 ---
 
+## Contraintes de Workflow & Objectifs IA
+
+- **Développement** : Tout contenu en cours de création ou brouillon doit être rédigé dans le répertoire `Campagnes/`.
+- **Validation** : Une fois finalisé, le contenu doit être propagé vers `Monde/` (pour l'intégration Foundry VTT via Wizzlethorpe Vaults) ou `Production/` (pour les exports PDF).
+- **Objectifs de l'IA** :
+  - Maintenir et structurer ce tableau de bord (roadmap).
+  - Respecter le workflow de création de fichiers.
+  - Générer le contenu (PNJ, scénarios, lieux, etc.) et aider à l'invention.
+  - Rechercher et respecter le lore de WoW Classic.
+
+---
+
 # 1. Organisation générale du vault
 
 ## Statut
