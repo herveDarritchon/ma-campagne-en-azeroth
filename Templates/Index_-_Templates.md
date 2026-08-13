@@ -12,6 +12,7 @@ ai-first: true
 
 | Modèle | Description | Statut |
 | :--- | :--- | :--- |
+| [[Template_Campagne]] | Modèle fondateur (Note d'intention) pour définir le pitch, les thèmes et la structure de la campagne. | Template |
 | [[Template_Faction]] | Modèle pour construire une faction active avec ses buts, son influence et ses faiblesses. | Template |
 | [[Template_Front]] | Modèle pour définir une menace globale ou un arc narratif majeur (Front). | Template |
 | [[Template_Lieu]] | Modèle pour décrire un lieu spécifique, son ambiance et son utilité en jeu. | Template |
