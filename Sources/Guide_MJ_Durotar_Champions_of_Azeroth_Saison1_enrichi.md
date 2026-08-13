@@ -32,6 +32,7 @@ Fonction dramatique : faire de Durotar un foyer que les joueurs apprennent à co
 | **RÈGLE DE CONCEPTION**<br>Razor Hill n’est pas une simple ville de départ et Durotar n’est pas un prologue. Razor Hill est la base des PJ ; Durotar est le territoire de la saison. Orgrimmar et Ragefire ne remplacent ce cadre qu’au moment où la saison converge vers son climax. | |
 |---|---|
 | **Tension** | **Ce qu’elle produit à la table** |
+| Ambiance Western / Pionnier | Un registre de poussière et de règlements de compte, mais sans manichéisme "gentils/méchants". Les conflits sont subtils et gris. |
 | Terre rude | L’eau, les vivres, les bêtes de bât, les outils, les matériaux et les routes ont une valeur concrète. |
 | Nouvelle patrie | Fierté, solidarité et volonté de bâtir un avenir durable après les guerres et l’exil. |
 | Territoire en construction | Convois, carrières, réparations, puits, dépôts, patrouilles et ouvriers deviennent des éléments naturels du décor. |

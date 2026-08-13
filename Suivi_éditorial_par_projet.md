@@ -28,27 +28,39 @@ Base créée via `jdr-scaffold` : index, règles de design (GDR), templates, bas
 
 - [x] Initialiser le vault avec `jdr-scaffold`.
 - [x] Vérifier la configuration `_CLAUDE.md`, `AGENTS.md` et `GEMINI.md`.
-- [ ] Personnaliser la description de la campagne dans `[[Index_du_Vault]]`.
+- [x] Personnaliser la description de la campagne dans `[[Index_du_Vault]]`.
 - [ ] Créer les premiers PNJ clés dans `PNJs/`.
 - [ ] Créer les premiers Lieux & POI majeurs dans `Localisations/`.
 - [ ] Définir la première aventure / arc narratif dans `Campagnes/`.
 
 ---
 
-# 2. Campagne principale — Au Nom de la Horde
+# 2. Campagne principale — Au Nom de la Horde (Saison 1 : Durotar)
 
 Lien principal : `[[Campagnes/Index_-_Campagnes|Index des Campagnes]]`
 
 ## Objectif éditorial
 
-Structurer le bac-à-sable ou l'aventure prête à faire jouer.
+Structurer le bac-à-sable ou l'aventure prête à faire jouer, en appliquant le Pointcrawl et les Game Design Records (GDR).
 
-## Tâches prioritaires
+## Tâches : Priorité Haute (Prérequis Session 1)
 
-- [ ] Rédiger le pitch de campagne et le résumé MJ.
-- [ ] Identifier les 3 Factions actives majeures et leurs horloges stratégiques.
-- [ ] Poser les 3 premiers Points d'Intérêt (POI) d'exploration.
-- [ ] Rédiger la session d'introduction (Session 1) avec le format "Ouvre et Joue".
+- [x] Rédiger le Pitch de Campagne : `[[Note_d_Intention_Campagne]]`.
+- [ ] Rédiger le Hub de départ : `[[🏙️_Razor_Hill]]` (avec 3-4 PNJs locaux interactifs).
+- [ ] Créer la Faction principale de l'ombre : `[[Faction_Le_Fil_Rouge]]` (Saboteurs & Harpies).
+- [ ] Écrire le Scénario d'introduction : `[[Scenario_01_Le_Materiel_Vole]]` (Format "Ouvre et Joue").
+
+## Tâches : Priorité Moyenne (Le Pointcrawl de la Saison 1)
+
+- [ ] Créer les Factions locales : `[[Faction_Les_Razormanes]]`, `[[Faction_La_Garnison_de_Tiragarde]]`, `[[Faction_La_Lame_Ardente]]`.
+- [ ] Définir les Nœuds d'exploration : `[[🗺️_Thunder_Ridge_et_Drygulch]]`, `[[🏙️_Village_de_Sen_jin]]`.
+- [ ] Rédiger les 3 Mini-Donjons (5-Room) : `[[🏰_Skull_Rock]]`, `[[🏰_Tiragarde_Keep]]`, `[[🏰_Terriers_de_l_Epine_Rouge]]`.
+- [ ] Préparer les antagonistes finaux : `[[PNJ_Le_Chaman_Renégat]]` et `[[PNJ_Le_Commanditaire_Orgrimmar]]`.
+
+## Tâches : Priorité Basse (Le Climax de Fin de Saison)
+
+- [ ] Structurer la destination finale de l'intrigue : `[[🏙️_Orgrimmar_Les_Fondations]]`.
+- [ ] Concevoir le Méga-Donjon réactif : `[[🏰_Ragefire_Chasm]]`.
 
 ---
 
@@ -58,5 +70,5 @@ Lien principal : `[[Production/Index_-_Production|Index Production]]`
 
 ## Tâches secondaires
 
-- [ ] Créer une table de rencontres aléatoires actionnables (GDR-011).
-- [ ] Créer les aides de jeu / handouts pour les joueurs.
+- [ ] Créer la `[[🗺️_Table_des_Routes_et_Rumeurs_Durotar]]` (Rencontres aléatoires actionnables GDR-011).
+- [ ] Créer les aides de jeu / handouts pour les joueurs (Ex: Missives interceptées, Cartes).

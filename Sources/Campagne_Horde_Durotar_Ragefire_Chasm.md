@@ -23,7 +23,7 @@ Promesse de campagne : faire reconnaître Azeroth aux anciens joueurs de WoW, pu
 
 # 1. Intention de campagne
 
-La campagne commence dans un Durotar immédiatement familier : routes poussiéreuses, avant-postes de la Horde, Orcs, Trolls, Razor Hill et faune locale. La première impression doit être celle d’un retour à Azeroth « comme les joueurs s’en souviennent ».
+La campagne commence dans un Durotar immédiatement familier : routes poussiéreuses, avant-postes de la Horde, Orcs, Trolls, Razor Hill et faune locale. La première impression doit être celle d’un retour à Azeroth « comme les joueurs s’en souviennent », mais teinté d'une forte ambiance western/pionnier (règlements de compte, rudesse de la Frontière, luttes territoriales nuancées et subtiles, loin du cliché manichéen cow-boys contre indiens).
 
 Cette reconnaissance sert cependant de point de départ, pas de destination. À mesure que les incidents se recoupent, le sens apparent des événements se renverse. Ce qui semblait être une série de sabotages contre la Horde devient progressivement la découverte d’une tentative de contenir un danger provoqué par les propres travaux de la Horde.
 

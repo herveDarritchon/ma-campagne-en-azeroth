@@ -53,10 +53,11 @@ Before declaring a bug, drafting a fix, or writing architecture: read the actual
 | Folder | Purpose |
 |---|---|
 | `Logs/` | Daily operation logs and AI dev sessions |
-| `Campagnes/` | Active and archived campaigns / adventures |
-| `Localisations/` | Geographical hierarchy, regions, points of interest (POI), places |
-| `PNJs/` | Non-Player Characters (NPCs) grouped by location/faction |
-| `Production/` | Homebrew supplements, modules, rules expansions, lore bibles |
+| `Campagnes/` | Espace de travail principal (brouillons, aventures actives). Une fois le contenu validé, il alimente `Production/` et `Monde/` |
+| `Regles/` | Règles du jeu, classes, races, sorts, équipement |
+| `Monde/` | Lore persistant, factions, PNJs, lieux. Ce répertoire sert à générer le contenu dans Foundry VTT en utilisant [Wizzlethorpe Vaults](https://github.com/wizzlethorpe/vaults) |
+| `Compendiums/` | Contenu formaté pour compilation vers Foundry VTT (via `vfmc`) |
+| `Production/` | Répertoire pour le contenu PDF ou suppléments à fournir une fois finalisé |
 | `Sources/` | External resources, books extractions, rulebook references and facts |
 | `Design_Records/` | Game Design Records (GDR) - immutable editorial & game design rules |
 | `Templates/` | Pre-built markdown templates for gameplay and entity creation |
@@ -78,7 +79,7 @@ Before declaring a bug, drafting a fix, or writing architecture: read the actual
 
 Claude should auto-save the following **without asking**:
 - Decisions made in conversation → relevant campaign/production note + daily log
-- New NPCs mentioned → `PNJs/` (create stub if needed)
+- New NPCs mentioned → `Monde/PNJs/` (create stub if needed)
 - Tasks assigned or committed to → `Suivi_éditorial_par_projet`
 - Content created / Dev work done → `Logs/` + project note
 - Completed tasks → mark as done in `Suivi_éditorial_par_projet`
@@ -102,6 +103,15 @@ ai-first: true
 ---
 ```
 
+**Foundry VTT Integration (Wizzlethorpe Vaults):**
+Pour les notes devant être synchronisées comme documents natifs dans Foundry, ajoutez le bloc `foundry` :
+```yaml
+foundry:
+  base: Actor:npc # ou un UUID D&D5e comme Compendium.dnd5e.monsters.Actor.bandit
+  embed: true # false si la page ne sert que de statblock
+  # sync: false # pour empêcher l'import (brouillons)
+```
+
 **Inline Metadata for RPG Entities (PNJs, Factions, POIs):**
 Use bold markdown lists at the top:
 - `**Nom :**`
@@ -111,11 +121,19 @@ Use bold markdown lists at the top:
 
 ---
 
-## Propagation Rules
+## Propagation Rules & Workflow
+
+**Flux de travail (Workflow de contenu) :**
+L'organisation de la codebase suit une contrainte de validation stricte :
+1. **Travail en cours :** Tout contenu en cours de création, de rédaction ou de test doit rester dans le répertoire `Campagnes/`.
+2. **Validation :** Une fois que le contenu de travail de `Campagnes/` est considéré comme valide et finalisé.
+3. **Publication :** Le contenu validé peut alors être généré ou déplacé vers ses répertoires de destination finale :
+   - Vers `Monde/` pour le contenu destiné à être ingéré dans Foundry VTT.
+   - Vers `Production/` pour la génération des documents PDF finaux.
 
 | Event | Also update |
 |---|---|
-| New POI / NPC | Campaign Index + PNJs/Localisations folder + daily log |
+| New POI / NPC | Campaign Index + Monde/PNJs/ ou Monde/Localisations/ folder + daily log |
 | Task done | `Suivi_éditorial_par_projet` + daily log |
 | Concept designed | Relevant Production folder + daily log |
 

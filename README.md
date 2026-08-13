@@ -31,11 +31,11 @@ L'architecture du projet est pensée pour faciliter la navigation et l'interacti
 
 | Dossier | Description |
 | :--- | :--- |
-| `📁 Campagnes/` | Aventures actives et archivées, arcs narratifs. |
-| `📁 Localisations/` | Hiérarchie géographique, régions, et points d'intérêt (POI). |
-| `📁 PNJs/` | Personnages non-joueurs, classés par factions ou lieux. |
-| `📁 Factions/` | Organisations, guildes, sectes et entités politiques. |
-| `📁 Production/` | Suppléments homebrew, modules, extensions de règles. |
+| `📁 Campagnes/` | Espace de travail. Contenu en cours de rédaction (aventures, brouillons) en attente de validation. |
+| `📁 Regles/` | Règles du jeu, classes, races, sorts, équipement. |
+| `📁 Monde/` | Contenu de lore validé. Répertoire utilisé pour générer le contenu dans Foundry VTT (via Wizzlethorpe Vaults). |
+| `📁 Compendiums/` | Contenu formaté pour compilation vers Foundry VTT (via `vfmc`). |
+| `📁 Production/` | Répertoire de destination du contenu validé pour la génération de PDF finaux ou livres. |
 | `📁 Sources/` | Documents de référence, extractions de livres et canon. |
 | `📁 Design_Records/` | Règles d'édition et de game design immuables (GDR). |
 | `📁 Templates/` | Modèles Markdown pour la création standardisée de contenu. |
@@ -59,6 +59,14 @@ Ce vault a été spécialement configuré pour être géré et enrichi en collab
 - L'IA utilise le manuel opératoire `_CLAUDE.md` (ou `GEMINI.md` / `AGENTS.md`) pour comprendre les conventions du vault.
 - Chaque note générée par l'IA contient des métadonnées (frontmatter YAML) spécifiques pour maintenir la structure de la base de données (tags, types, niveau de confiance, etc.).
 - Les requêtes et instructions sont gérées via un système de "skills" et "commands" (ex: `/obsidian-person`, `/obsidian-location`).
+
+## 🎲 Intégration Foundry VTT (Wizzlethorpe Vaults)
+
+Ce projet est pensé pour s'intégrer directement avec **Foundry VTT** via le module **Wizzlethorpe Vaults**.
+- **Obsidian** est la source de vérité pour le contenu éditorial et de référence (Lore, scénarios, caractéristiques de base).
+- **Foundry VTT** reste la source de vérité pour l'état vivant de la partie (HP actuels, position des tokens, etc.).
+
+Les notes Markdown peuvent définir un frontmatter `foundry:` afin d'être automatiquement converties en entités natives (Actors, Items, Journals) lors de la synchronisation.
 
 ## 📐 Règles de Design (GDR)
 
