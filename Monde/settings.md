@@ -1,6 +1,6 @@
 ---
 # Display name for the wiki (shown in header and page titles).
-vault_name: Vault
+vault_name: Au Nom de la Horde
 
 # WebP quality 1–100 for image compression. Set 0 to disable.
 image_quality: 85
@@ -27,7 +27,7 @@ preview_mode: normal
 preview_mode_mobile: sticky
 
 # Role assigned to pages with no 'role:' frontmatter. Empty string means the lowest-tier role (typically 'public'). Set to e.g. 'dm' for a private-by-default vault. Must be one of your configured roles.
-default_role: dm
+default_role: public
 
 # Override the accent color (links, headings, highlights). Any CSS color works: '#a8201a', 'crimson', 'rgb(168 32 26)'. Empty = use the built-in scarlet.
 accent_color: ""

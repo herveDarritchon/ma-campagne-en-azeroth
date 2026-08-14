@@ -27,6 +27,7 @@ This vault is designed for **future-Claude** to read and reason over, not for hu
 8. **Obsidian Markdown Syntax** — You MUST strictly respect the Obsidian markdown formalism. Do NOT use standard markdown variants if they differ from Obsidian's syntax (e.g., use `_..._` for italics, not `*...*`).
 9. **Design Rules (GDR)** — Before generating or structuring any new RPG document (Scenario, Lore, NPC, Location, Faction, etc.), you MUST read `Design_Records/00_Index_des_Regles_de_Design.md` to find and apply the relevant formatting and design rules.
 10. **Mermaid Strict Syntax** — When creating Mermaid diagrams, NEVER use special characters (parentheses `()`, ampersands `&`, spaces, etc.) directly in subgraph or node IDs. ALWAYS use the strict syntax with an identifier and a bracketed label (e.g., `subgraph S1 [Label with (special) & characters]`).
+11. **Nomenclature WoW en Français** — Vous devez systématiquement utiliser les noms officiels en français pour toutes les créatures, lieux, personnages, factions et objets de l'univers de World of Warcraft.
 
 This rule applies to all `/obsidian-*` and `/research*` commands, all scheduled agents, and any direct vault writes.
 
@@ -56,6 +57,7 @@ Ton objectif principal en tant qu'assistant IA dans ce Vault est de :
 3. **Générer du contenu :** Rédiger des scénarios, des descriptions de PNJ, de factions et de lieux.
 4. **Aider à l'invention :** Proposer des idées créatives, brainstormer sur des rebondissements ou des concepts de game design.
 5. **Rechercher le lore de WoW Classic :** Sourcer et respecter le canon de l'univers de Warcraft, fournir du contexte historique et éviter les incohérences.
+6. **Nomenclature en français :** Utiliser systématiquement les noms officiels en français pour les créatures, les lieux, les personnages, les sorts, etc. de l'univers de World of Warcraft.
 
 ---
 

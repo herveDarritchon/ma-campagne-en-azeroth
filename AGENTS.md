@@ -27,6 +27,7 @@ agent) should follow when the user's request matches its trigger phrase.
 5. **Design Rules (GDR):** Before generating or structuring any new RPG document (Scenario, Lore, NPC, Location, Faction, etc.), you MUST read `Design_Records/00_Index_des_Regles_de_Design.md` to find and apply the relevant formatting and design rules.
 6. **Obsidian Markdown Syntax:** You MUST strictly respect the Obsidian markdown formalism. Do NOT use standard markdown variants if they differ from Obsidian's syntax (e.g., use `_..._` for italics, not `*...*`).
 7. **Strict Canon & Lore Compliance (Do NOT Invent):** Before proposing ideas or creating new content, you MUST search and read the existing campaign bible, storyboards, and character files in the vault. NEVER invent new lore, timelines, or events without sourcing. Always build upon the existing history and distinguish `[Canon]`, `[Officiel]`, `[Inférence]` and `[Spéculation]`.
+8. **Nomenclature WoW en Français:** Vous devez systématiquement utiliser les noms officiels en français pour toutes les créatures, lieux, personnages, factions et objets de l'univers de World of Warcraft.
 
 ## Command routing tables (grouped by category)
 
