@@ -15,7 +15,7 @@ ignore: []
 inline_title: true
 
 # CSS width applied to images embedded without an explicit '|N' size hint. Any valid CSS dimension works (300px, 50vw, 100%, etc). Set empty string to leave images at natural size.
-default_image_width: 300px
+default_image_width: 250px
 
 # Center images in the article body. Set false to leave them flush left.
 center_images: true
@@ -27,7 +27,7 @@ preview_mode: normal
 preview_mode_mobile: sticky
 
 # Role assigned to pages with no 'role:' frontmatter. Empty string means the lowest-tier role (typically 'public'). Set to e.g. 'dm' for a private-by-default vault. Must be one of your configured roles.
-default_role: ""
+default_role: dm
 
 # Override the accent color (links, headings, highlights). Any CSS color works: '#a8201a', 'crimson', 'rgb(168 32 26)'. Empty = use the built-in scarlet.
 accent_color: ""
@@ -54,7 +54,7 @@ auto_image: true
 include_unknown_files: false
 
 # Markdown text rendered in a small <footer> at the bottom of every page. Supports inline markdown (links, *italic*, **bold**). Set to an empty string to hide the footer entirely.
-footer: "Generated with [Wizzlethorpe Vaults](https://vaults.wizzlethorpe.com)."
+footer: "Generated with [Wizzlethorpe Vaults](https://vaults-coa.herve.darritchon)."
 ---
 
 # Vault settings

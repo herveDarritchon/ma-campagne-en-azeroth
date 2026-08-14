@@ -25,27 +25,27 @@ Bien que le document ne soit pour l'instant qu'un Journal, demandez à l'utilisa
 *Si le type ne correspond à rien d'évident, demandez dans quel sous-dossier le placer.*
 
 ### Étape 3 : Demander le rôle et les accès du document
-Dans Wizzlethorpe Vaults, l'accès se gère via des rôles (`player`, `dm`). Demandez à l'utilisateur :
-1. Le niveau d'accès global de la page (ex: est-ce un document uniquement pour le `dm` ou accessible au `player` ?). Cela définira la propriété `role:` dans le frontmatter.
-2. Si la page est accessible aux joueurs (`role: player`), demandez s'il y a des notes ou du contenu réservé exclusivement au MJ à l'intérieur. Ces blocs seront créés sous forme de callouts Obsidian `> [!dm]`.
+Dans Wizzlethorpe Vaults, l'accès se gère via des rôles définis dans la configuration (par défaut `public`, et potentiellement `dm`). Demandez à l'utilisateur :
+1. Le niveau d'accès global de la page (ex: est-ce un document uniquement pour le `dm` ou est-il `public` ?). Cela définira la propriété `role:` dans le frontmatter.
+2. Si la page est accessible aux joueurs (`role: public`), demandez s'il y a des notes ou du contenu réservé exclusivement au MJ à l'intérieur. Ces blocs seront créés sous forme de callouts Obsidian `> [!dm]`.
 
 ### Étape 4 : Générer le fichier Markdown
 Créez le fichier Markdown dans le bon répertoire avec l'outil d'écriture de fichier.
 
 **Règles de formatage obligatoires :**
-1. **Frontmatter exclusif à Foundry :** Le bloc YAML ne doit contenir **que** le bloc `foundry:` et, si spécifié, la propriété globale `role:` (ex: `role: dm` ou `role: player`). Ne pas inclure les attributs Obsidian habituels (`type`, `date`, `tags`, `ai-first: true`).
+1. **Frontmatter exclusif à Foundry :** Le bloc YAML ne doit contenir **que** le bloc `foundry:`, la propriété globale `role:` (ex: `role: dm` ou `role: public`), et la propriété `title: "Titre du document"` (définir systématiquement le titre lisible). Ne pas inclure les attributs Obsidian habituels (`type`, `date`, `tags`, `ai-first: true`).
 2. Ajouter l'option `journal: true` ou laisser le bloc `foundry:` vide selon les besoins pour préparer l'ajout futur des types d'Actor/Scene.
-3. Intégrer un titre de niveau 1 (`#`).
+3. **Aucun titre de niveau 1 (`# H1`)** ne doit être présent dans le corps du document pour éviter la duplication. Le contenu commence directement par le texte d'introduction ou par des sections `##`.
 4. Si demandé, ajouter les sections restreintes en utilisant la syntaxe des callouts (ex: `> [!dm] Notes secrètes...`).
 
 **Exemple de modèle généré :**
 ```yaml
 ---
-role: player
+title: "[Nom du Document]"
+role: public
 foundry:
   # Prêt pour une future mise à jour (ex: base: Actor:npc)
 ---
-# [Nom du Document]
 
 [Contenu public du journal, descriptions, etc.]
 
