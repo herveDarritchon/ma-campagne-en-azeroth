@@ -1,0 +1,11 @@
+{
+  "roles": [
+    "public",
+    "player",
+    "dm"
+  ],
+  "rolePasswords": {
+    "player": "100000:d0bdf7cb038167db24bb76321ea81801:6b9787b0a2ca6a393ca22d2d1fb1713c1c04c7a9b4997fba8cf51166825f869a",
+    "dm": "100000:4f3a57160a2e8cd864818a1da6fbf75c:0917285648a3a80249385a8a65493ada64353746ab946c767cd455a61a12037c"
+  }
+}
