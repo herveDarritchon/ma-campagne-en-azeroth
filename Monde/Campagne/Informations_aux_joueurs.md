@@ -1,5 +1,5 @@
 ---
-title: "Au Nom de la Horde : Informations aux Joueurs"
+title: Informations aux Joueurs
 role: public
 foundry:
 ---

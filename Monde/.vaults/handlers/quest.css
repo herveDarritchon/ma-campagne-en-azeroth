@@ -1,0 +1,46 @@
+.coa-quest-block {
+  border: 2px solid var(--coa-horde-blood);
+  background-color: #241916; /* Un peu plus clair que le fond pour détacher */
+  margin: 1rem 0;
+  border-radius: 2px;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.5); /* Ombre dure, brutale */
+}
+
+.coa-quest-header {
+  background-color: var(--coa-horde-blood);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid var(--coa-accent-iron);
+}
+
+.coa-quest-header h3 {
+  margin: 0;
+  border: none !important;
+  color: var(--coa-text-bone) !important;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.coa-quest-body {
+  padding: 1rem;
+  color: var(--coa-text-bone);
+}
+
+.coa-quest-accept {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--coa-horde-blood);
+  color: var(--coa-text-bone);
+  border: none;
+  border-top: 2px solid var(--coa-accent-iron);
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.coa-quest-accept:hover {
+  background-color: var(--coa-horde-red-bright);
+  color: white;
+}

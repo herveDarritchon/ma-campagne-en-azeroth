@@ -1,0 +1,48 @@
+/* Design tokens - World of Warcraft (Horde centric - Dark) */
+:root, :root[saved-theme="dark"], :root[saved-theme="light"] {
+  --coa-bg-horde: #18110f; /* Fond très sombre, terre et cendre */
+  --coa-text-bone: #dfc7a5; /* Texte couleur os / cuir clair */
+  --coa-accent-iron: #4a2d22; /* Bordures en fer sombre / bois brut */
+  --coa-horde-blood: #8c1616; /* Rouge sang profond (bordures, accents) */
+  --coa-horde-red-bright: #b32121; /* Rouge vif pour titres et liens */
+  --coa-border-radius: 2px; /* Coins plus carrés et agressifs */
+
+  /* Surcharge des variables du générateur (Vaults / Quartz) */
+  --light: var(--coa-bg-horde) !important;
+  --lightgray: var(--coa-accent-iron) !important;
+  --gray: var(--coa-horde-blood) !important;
+  --darkgray: var(--coa-text-bone) !important;
+  --dark: var(--coa-horde-red-bright) !important;
+  --secondary: var(--coa-horde-red-bright) !important;
+  --tertiary: var(--coa-horde-blood) !important;
+  --highlight: rgba(140, 22, 22, 0.15) !important;
+}
+
+/* Base Wiki Vaults */
+body, .page, article {
+  background-color: var(--coa-bg-horde) !important;
+  color: var(--coa-text-bone) !important;
+  font-family: "Georgia", serif !important;
+}
+
+article h1, article h2, article h3 {
+  color: var(--coa-horde-red-bright) !important;
+  border-bottom: 2px solid var(--coa-horde-blood) !important;
+  text-transform: uppercase; /* Donne un côté plus martial */
+}
+
+/* Base Foundry VTT Journal */
+.journal-entry-content {
+  background-color: var(--coa-bg-horde) !important;
+  color: var(--coa-text-bone) !important;
+  font-family: "Georgia", serif !important;
+  padding: 20px;
+}
+
+.journal-entry-content h1, 
+.journal-entry-content h2, 
+.journal-entry-content h3 {
+  color: var(--coa-horde-red-bright) !important;
+  border-bottom: 2px solid var(--coa-horde-blood) !important;
+  text-transform: uppercase;
+}
