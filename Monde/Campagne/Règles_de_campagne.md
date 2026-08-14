@@ -1,5 +1,5 @@
 ---
-title: "Règles de campagne (Saison 1)"
+title: Règles de campagne - Saison 1
 role: dm
 foundry:
 ---
