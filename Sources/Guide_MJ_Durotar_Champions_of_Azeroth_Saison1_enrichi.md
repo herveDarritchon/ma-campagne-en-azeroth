@@ -24,7 +24,7 @@ DUROTAR
 | Donjons secondaires | 3 Five Room Dungeons optionnels |
 | Destination finale | Orgrimmar comme seuil de fin de saison, puis Ragefire Chasm sous la ville |
 | Donjon culminant | Ragefire Chasm : grand donjon WoW adapté, persistant et potentiellement exploré en plusieurs incursions |
-| Époque | Toujours non fixée : les éléments dépendants de la chronologie devront être validés lorsque la date sera verrouillée. |
+| Époque | Début de WoW, peu après Warcraft III et la Bataille du Mont Hyjal, premières années d'Orgrimmar et du royaume de la Horde. |
 
 Fonction dramatique : faire de Durotar un foyer que les joueurs apprennent à connaître, puis leur faire comprendre que le danger final se trouve sous le cœur même de ce foyer.
 
@@ -92,7 +92,7 @@ Le guide de zone applique les règles déjà fixées pour Champions of Azeroth :
 Le socle retenu reste celui d’un Durotar Classic / pré-Cataclysm tant que l’époque exacte n’est pas verrouillée. Les repères ci-dessous servent à reconnaître la zone ; les détails dépendants de la chronologie doivent rester modulables.
 
 
-| **ATTENTION À L’ÉPOQUE**<br>Ne verrouille pas le statut des Echo Isles, de Tiragarde, des forces humaines ni l’état exact d’Orgrimmar avant d’avoir fixé la date de campagne. Le présent document définit une structure de jeu ; certains habillages devront être ajustés au canon choisi. | |
+| **ATTENTION À L’ÉPOQUE**<br>La chronologie étant fixée (début WoW, peu après la bataille du Mont Hyjal), le statut des Îles de l'Écho, du fort de Tiragarde, des forces humaines et d'Orgrimmar s'aligne sur cette période naissante. | |
 |---|---|
 | **Fonction du hub** | **Concrètement** |
 | Base | Un endroit stable pour dormir, se soigner, réparer, stocker et préparer une excursion. |
@@ -508,5 +508,5 @@ Sources de projet prioritaires :
 Les repères Warcraft et les éléments de géographie hérités du guide précédent sont conservés comme socle de travail. Les éléments dépendants de la chronologie devront être revérifiés lorsque l’époque exacte de la campagne sera fixée.
 
 
-| **STATUT DU PRÉSENT DOCUMENT**<br>Ce guide fixe désormais l’architecture de jeu de la saison 1 : Razor Hill = départ et hub ; Durotar = pointcrawl de saison ; trois factions et trois donjons secondaires ; Orgrimmar = destination de convergence ; Ragefire Chasm = point culminant. Les identités précises du chaman renégat, du commanditaire, de la menace enfouie et la date de campagne restent ouvertes. |
+| **STATUT DU PRÉSENT DOCUMENT**<br>Ce guide fixe désormais l’architecture de jeu de la saison 1 : Razor Hill = départ et hub ; Durotar = pointcrawl de saison ; trois factions et trois donjons secondaires ; Orgrimmar = destination de convergence ; Ragefire Chasm = point culminant. La date de campagne est fixée (début WoW), mais les identités précises du chaman renégat, du commanditaire et de la menace enfouie restent ouvertes. |
 |---|

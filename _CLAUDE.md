@@ -131,6 +131,7 @@ foundry:
   embed: true # false si la page ne sert que de statblock
   # sync: false # pour empêcher l'import (brouillons)
 ```
+**Important :** Lors de la création ou copie d'un document dans `Monde/` pour l'export Vault/Foundry, vous devez obligatoirement retirer le paragraphe `## For future Claude` et son contenu, qui n'est utile qu'au sein de l'espace de travail.
 
 **Inline Metadata for RPG Entities (PNJs, Factions, POIs):**
 Use bold markdown lists at the top:

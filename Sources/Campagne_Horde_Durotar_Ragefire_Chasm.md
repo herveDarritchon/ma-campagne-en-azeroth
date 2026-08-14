@@ -18,7 +18,7 @@ Promesse de campagne : faire reconnaître Azeroth aux anciens joueurs de WoW, pu
 |---|---|
 | **Départ** | Bas niveau, probablement niveau 1 — à confirmer |
 | **Structure** | 5 mouvements menant à un donjon final |
-| **Statut** | Architecture de campagne validée ; période exacte et nature du danger final encore à définir |
+| **Statut** | Architecture de campagne validée ; période fixée (Début de WoW, peu après Warcraft III et la Bataille du Mont Hyjal, premières années d'Orgrimmar) ; nature du danger final encore à définir |
 
 
 # 1. Intention de campagne

@@ -36,7 +36,8 @@ Créez le fichier Markdown dans le bon répertoire avec l'outil d'écriture de f
 1. **Frontmatter exclusif à Foundry :** Le bloc YAML ne doit contenir **que** le bloc `foundry:`, la propriété globale `role:` (ex: `role: dm` ou `role: public`), et la propriété `title: "Titre du document"` (définir systématiquement le titre lisible). Ne pas inclure les attributs Obsidian habituels (`type`, `date`, `tags`, `ai-first: true`).
 2. Ajouter l'option `journal: true` ou laisser le bloc `foundry:` vide selon les besoins pour préparer l'ajout futur des types d'Actor/Scene.
 3. **Aucun titre de niveau 1 (`# H1`)** ne doit être présent dans le corps du document pour éviter la duplication. Le contenu commence directement par le texte d'introduction ou par des sections `##`.
-4. Si demandé, ajouter les sections restreintes en utilisant la syntaxe des callouts (ex: `> [!dm] Notes secrètes...`).
+4. **Aucun paragraphe `## For future Claude` :** Lors de la création ou copie d'un fichier destiné à Foundry (Vault format), ce paragraphe d'assistance interne doit être systématiquement supprimé.
+5. Si demandé, ajouter les sections restreintes en utilisant la syntaxe des callouts (ex: `> [!dm] Notes secrètes...`).
 
 **Exemple de modèle généré :**
 ```yaml
