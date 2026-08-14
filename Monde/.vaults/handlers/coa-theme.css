@@ -46,3 +46,53 @@ article h1, article h2, article h3 {
   border-bottom: 2px solid var(--coa-horde-blood) !important;
   text-transform: uppercase;
 }
+
+/* ==================================================
+   Bandeau de Rôle (Ribbon)
+   ================================================== */
+.coa-role-ribbon-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  pointer-events: none; /* Ne bloque pas le clic en dessous */
+  z-index: 9999;
+}
+
+.coa-role-ribbon {
+  position: absolute;
+  top: 30px;
+  right: -40px;
+  width: 200px;
+  text-align: center;
+  transform: rotate(45deg);
+  font-family: "Georgia", serif;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--coa-text-bone, #dfc7a5);
+  padding: 5px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.8);
+}
+
+/* Couleurs par rôle */
+.coa-role-ribbon.role-public {
+  background-color: #4a2d22; /* Fer/Bois - Neutre */
+  border-top: 2px solid #5e3321;
+  border-bottom: 2px solid #5e3321;
+}
+
+.coa-role-ribbon.role-player {
+  background-color: #274e13; /* Vert Orc - Combattant */
+  border-top: 2px solid #38761d;
+  border-bottom: 2px solid #38761d;
+}
+
+.coa-role-ribbon.role-dm {
+  background-color: var(--coa-horde-blood, #8c1616); /* Rouge Sang - Danger/MJ */
+  border-top: 2px solid var(--coa-horde-red-bright, #b32121);
+  border-bottom: 2px solid var(--coa-horde-red-bright, #b32121);
+}
